@@ -1,0 +1,24 @@
+name: Go Toronto
+url: http://golangto.com
+
+pygments: true
+timezone: America/Toronto
+exclude: ["Gemfile", "Gemfile.lock"]
+
+future: true
+permalink: :year-:month
+relative_permalinks: false
+
+markdown: redcarpet
+
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
+    - disable_indented_code_blocks
+    - autolink
+    - strikethrough
+    - lax_spacing
+    - superscript
+    - with_toc_data
