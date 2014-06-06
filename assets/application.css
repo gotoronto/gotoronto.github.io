@@ -5,6 +5,10 @@ body {
   body a {
     color: #008dd5;
     text-decoration: none; }
+  body h4 {
+    margin: 3px 0px; }
+  body h3 {
+    margin: 7px 0px; }
   body header {
     background-color: dimgray;
     width: 100%;
@@ -35,9 +39,30 @@ body {
       padding: 0; }
       body header ul.links li {
         display: inline-block; }
-  body #page-content {
-    max-width: 1000px;
+  body #body-container {
+    width: 1150px;
     margin: 30px auto; }
+    body #body-container #page-content {
+      width: 69%; }
+    body #body-container #page-sidebar {
+      border: thin solid silver;
+      width: 27%;
+      padding: 7px;
+      border-radius: 5px; }
+      body #body-container #page-sidebar .past-meetups {
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+        body #body-container #page-sidebar .past-meetups .meetup .date {
+          font-size: 10px;
+          font-style: italic;
+          margin: 0; }
+        body #body-container #page-sidebar .past-meetups .meetup .excerpt {
+          font-size: 14px;
+          font-style: italic;
+          margin: 0; }
+  body footer {
+    width: 70%; }
 
 .webicon {
   display: inline-block;
@@ -62,3 +87,16 @@ body {
 
 .text-centered {
   text-align: center; }
+
+.clearfix {
+  clear: both; }
+
+.two-pane-container .left-pane {
+  float: left;
+  display: inline-block; }
+.two-pane-container .right-pane {
+  display: inline-block;
+  float: right; }
+
+#voter-board {
+  width: 800px; }

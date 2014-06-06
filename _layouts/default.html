@@ -27,8 +27,26 @@
         <li><a href="http://www.meetup.com/go-toronto" target="_blank" class="webicon meetup"></a></li>
       </ul>
     </header>
-    <div id="page-content" class="text-centered">
-      {{ content }}
+    <div id="body-container" class="two-pane-container">
+      <div id="page-content" class="left-pane">
+        {{ content }}
+      </div>
+      <div id="page-sidebar" class="right-pane">
+        Want to do a talk? 
+        Please <a href="&#x6d;&#x61;&#105;&#108;&#116;&#000111;&#58;&#x6f;&#114;&#x67;&#x61;&#110;&#x69;&#x7a;&#x65;&#x72;&#115;&#x40;&#103;&#x6f;&#000108;&#00097;&#000110;&#103;&#000116;&#111;&#x2e;&#x63;&#000111;&#x6d;" >contact us</a>!
+        <br><br>
+        <h4>Past Meetups</h4>
+        <ul class="past-meetups">
+          {% for post in site.posts %}
+            <li class="meetup">
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              <p class="date">{{ post.date | date_to_string }}</p>
+              <p class="excerpt">{{ post.excerpt }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
+    <div class="clearfix"></div>
   </body>
 </html>

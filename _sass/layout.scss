@@ -9,6 +9,14 @@ body {
     color: #008dd5;
     text-decoration: none;
   }
+
+  h4 {
+    margin: 3px 0px;
+  }
+  h3 {
+    margin: 7px 0px;
+  }
+
   header {
     background-color: $secondary-color;
     width: 100%;
@@ -58,9 +66,40 @@ body {
 
   }
 
-  #page-content {
-    max-width: 1000px;
+  #body-container{
+    width: 1150px;
     margin: 30px auto;
+
+    #page-content {
+      width:69%;
+    }
+    #page-sidebar {
+      border: thin solid silver;
+      width: 27%;
+      padding: 7px;
+      border-radius: 5px;
+
+      .past-meetups {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        .meetup {
+          .date {
+            font-size: 10px;
+            font-style: italic;
+            margin:0;
+          }
+          .excerpt {
+            font-size: 14px;
+            font-style: italic;
+            margin:0;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    width: 70%;
   }
 }
 

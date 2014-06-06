@@ -2,16 +2,17 @@
 layout: default
 title: Meetups
 ---
-<img src="/assets/images/gopherswrench.jpg" class="gopherswrench">
-<p>
-  We are working on it. Come back soon.
-</p>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="meta">{{ post.date | date_to_string }}</p>
-      <p>{{ post.excerpt | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<h3>Please vote on and add items for the following</h3>
+<div id="voter-board" class="two-pane-container">
+  <div class="left-pane">
+    <a href="http://www.listnerd.com/list/meetup-topics" target="_blank"><h4>Upcomming topics of discussion.</h4></a>
+    <iframe width="400" height="400" src="http://www.listnerd.com/embed/meetup-topics" frameborder="0"></iframe>
+  </div>
+  <div class="right-pane">
+    <a href="http://www.listnerd.com/list/preferred-meetup-types" target="_blank"><h4>Preferred Meetup Types</h4></a>
+    <iframe width="400" height="400" src="http://www.listnerd.com/embed/preferred-meetup-types" frameborder="0"></iframe>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<a href="https://groups.google.com/d/forum/golangto" target="_blank"><h3>Join Our Google Groups.</h3></a>
+<iframe id="forum_embed" src="https://groups.google.com/forum/embed/?place=forum/golangto&showpopout=true&theme=default&hideforumtitle=true" scrolling="no" frameborder="0" width="100%" height="700"></iframe>

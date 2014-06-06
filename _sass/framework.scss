@@ -1,3 +1,16 @@
 .text-centered {
   text-align: center;
 }
+.clearfix {
+  clear: both;
+}
+.two-pane-container {
+  .left-pane {
+    float: left;
+    display: inline-block;
+  }
+  .right-pane {
+    display: inline-block;
+    float: right;
+  }
+}
