@@ -22,4 +22,8 @@ An in depth look at the Go scheduler internals, and how goroutines actually work
 
 [Slides are available here](https://github.com/pkieltyka/go1.3-some-bits-on-runtime)
 
+## Pictures
+
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/Jt5Tx/embed"></iframe>
+
 
