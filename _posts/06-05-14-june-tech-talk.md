@@ -13,7 +13,7 @@ layout: default
 
 A summary of experiences and mistakes in running and scaling Go to a production environment.
 
-[Slides are available here](https://docs.google.com/presentation/d/1QMvyextxURbnrCRFiaEzj06CdXUsZjtl3iJ68lzeG74/pub?start=false&loop=false&delayms=3000#slide=id.g34b6f74a1_0221)
+[Slides are available here](https://docs.google.com/presentation/d/1QMvyextxURbnrCRFiaEzj06CdXUsZjtl3iJ68lzeG74/pub?start=false&loop=false&delayms=3000)
 
 ### Peter Kieltyka (Our Pressly Host) [@peterk](https://twitter.com/peterk)  
 #### The Go Scheduler
