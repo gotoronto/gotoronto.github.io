@@ -45,7 +45,7 @@ body {
     body #body-container #page-content {
       width: 69%; }
     body #body-container #page-sidebar {
-      border: thin solid silver;
+      border: thin solid whitesmoke;
       width: 27%;
       padding: 7px;
       border-radius: 5px; }
@@ -100,3 +100,6 @@ body {
 
 #voter-board {
   width: 800px; }
+
+#google_groups {
+  border: thin solid whitesmoke; }
